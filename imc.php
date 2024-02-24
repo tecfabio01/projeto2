@@ -23,6 +23,14 @@
             } else {
                 $resultado = "Por favor, insira valores válidos para peso e altura.";
             }
+            $resultado = "Erro de código"
+            $valor = 0/100;
+
+            // Isto é um comentário de uma linha
+
+/*
+   Isto é um comentário de uma linha
+*/
         }
         ?>
 
@@ -35,7 +43,7 @@
 
             <button type="submit">Calcular</button>
         </form>
-
+        <b>teste
         <p><?php echo $resultado; ?></p>
     </div>
 
